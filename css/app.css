@@ -1,0 +1,42 @@
+#canvas{
+  border: 1px solid red;
+
+  width: 900px;
+  height: 10000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#counter{
+  border: 2px solid blue;
+  background-color: blue;
+  color: white;
+  width: 200px;
+  height: 30px;
+  left: 90px;
+  top: 123px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+h1{
+  border: 2px solid blue;
+  background-color: yellow;
+  margin: auto;
+  width: 200px;
+  height: 30px;
+  top: 200px;
+  z-index: 11;
+
+
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efc026+0,efc026+3,7db9e8+3,2989d8+56,1e5799+100 */
+  background: #efc026; /* Old browsers */
+  background: -moz-linear-gradient(top, #efc026 0%, #efc026 3%, #7db9e8 3%, #2989d8 56%, #1e5799 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #efc026 0%,#efc026 3%,#7db9e8 3%,#2989d8 56%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #efc026 0%,#efc026 3%,#7db9e8 3%,#2989d8 56%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc026', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+}
