@@ -1,6 +1,4 @@
 #canvas{
-  border: 1px solid red;
-
   width: 1440px;
   height: 10000px;
   margin: 0 auto;
@@ -21,8 +19,7 @@
 }
 
 h1{
-  border: 2px solid blue;
-  background-color: yellow;
+  font-family: 'Frijole', cursive;
   margin: auto;
   width: 200px;
   height: 30px;
@@ -31,7 +28,7 @@ h1{
 
 
 }
-
+/*gradient background*/
 body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efc026+0,efc026+3,6bbfc6+3,2989d8+56,1e5799+100 */
 background: #efc026; /* Old browsers */
@@ -47,3 +44,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc026', end
   top: 250px;
   position: absolute;
   background-image:url(http://lostworldsfairs.com/atlantis/img/bg_backwave.png)
+}
+
+#submarine {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  margin-left: -200px;
+  z-index: 11;
+}
+
+#rocks {
+  position: absolute;
+  top: 300px;
+  z-index: 10;
+}
+
+#bubbles {
+  position: absolute;
+  top:600px;
+  z-index: 12;
+
+}
