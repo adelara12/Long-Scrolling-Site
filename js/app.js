@@ -8,9 +8,9 @@ window.onscroll = function(){
 
     console.log(y);
 
-    counter.style.top = 400 + y + .97 + "px";
+    /*counter.style.top = 400 + y + .97 + "px";
 
-    counter.innerHTML = y + "px and also" + 400 + y + .97 + "px";
+    counter.innerHTML = y + "px and also" + 400 + y + .97 + "px";*/
 
     submarine.style.top = 400 + y + .97 + "px";
 

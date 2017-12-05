@@ -5,7 +5,7 @@
   position: relative;
 }
 
-#counter{
+/*#counter{
   border: 2px solid blue;
   background-color: blue;
   color: white;
@@ -16,15 +16,18 @@
   position: absolute;
   z-index: 10;
   opacity: 0.5;
-}
+}*/
 
 h1{
   font-family: 'Frijole', cursive;
-  margin: auto;
-  width: 200px;
-  height: 30px;
-  top: 200px;
-  z-index: 11;
+  font-size: 80px;
+  margin-left: 430px;
+  /*width: 200px;
+  height: 30px;*/
+  top: 700px;
+  z-index: 10;
+
+
 
 
 }
@@ -62,7 +65,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc026', end
 
 #bubbles {
   position: absolute;
-  top:600px;
+  top:900px;
   z-index: 12;
 
+}
+
+#text {
+  position: absolute;
+  top: 500px;
+  z-index: 13;
+}
+
+#clouds {
+  position: absolute;
+  top: 50px;
+  z-index: 9;
 }
